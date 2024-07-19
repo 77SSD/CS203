@@ -1,0 +1,55 @@
+\documentclass{beamer}
+
+\usetheme{Copenhagen}
+\useinnertheme{circles}
+\usefonttheme{default}
+
+\usepackage{colortbl}
+
+\begin{document}
+
+\title{Beamer Presentation}
+\subtitle{An example}
+\author{\textnormal{Firstname Lastname}}
+\institute[IITDh]{IIT Dharwad}
+\begin{frame} [plain]
+\titlepage 
+\centering
+\textit{firstname@iitdh} \\
+\textnormal{Beamer re-exam}\\
+\date{\today}
+\end{frame}
+
+\begin{frame}{Presentation Overview}
+\tableofcontents
+\end{frame}
+
+\section{Text Examples}
+\subsection{Paragraphs and Lists \\ Columns}
+	\begin{frame}
+	\frametitle{Paragraphs Of Text}
+	\bibliographystyle{}
+		
+		
+		
+		
+	\end{frame}
+	
+\section{Table and Figure Examples}
+\subsection{Table \\ Figure \\ Example}
+
+	\begin{frame}[label=first]{Infinite Loop}
+		\hyperlink{last}{\beamergotobutton{Go to next slide}}
+	\end{frame}
+	
+	\begin{frame}[label=last]{Infinite Loop}
+		\hyperlink{first}{\beamerreturnbutton{Go to previous slide}}
+	\end{frame}
+	
+\section{Highlighting}
+
+\frame[plain]{\color{blue} \Huge Thank you}
+
+\section{Highlighting}
+	
+\end{document}
